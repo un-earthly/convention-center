@@ -1,0 +1,172 @@
+/* fonts for heading and body  */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap');
+
+/* fonts for heading and body  */
+
+
+/* reseting font family */
+
+
+
+* {
+    font-family: 'Roboto';
+}
+
+
+h1 {
+    font-family: cursive;
+    font-weight: 600;
+}
+
+
+.navbar {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* reseting font family */
+
+
+
+/* making the navbar expandble  */
+
+
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+
+
+@media (min-width:320px) and (max-width:991px) {
+    
+    .nav {
+        justify-content: center !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+}
+
+/* making the navbar expandble  */
+
+
+/* carousel */
+
+
+@media (min-width:320px) and (max-width:448px) {
+
+    .carousel-caption {
+        padding-bottom: 5px;
+        bottom: 0;
+    }
+
+    .carousel-caption p,
+    .carousel-caption h3 {
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .carousel-caption p,
+    .carousel-caption>h3 {
+        font-size: .4rem !important;
+        font-weight: 200;
+    }
+
+    .btn-lg {
+        font-size: 0.5rem !important;
+        padding: 5px 8px;
+    }
+}
+
+
+/* carousel */
+
+
+
+/* packages  */
+
+
+.rounded-lg {
+    border-radius: 26px;
+    padding: .5rem 1rem;
+}
+
+
+
+@media (min-width:768px) {
+
+    .rounded-lg {
+        border-radius: 26px;
+        padding: 3rem 3rem 3rem 1.5rem;
+    }
+}
+
+
+
+.start-90 {
+    left: 85% !important;
+}
+
+
+
+/* packages  */
+
+
+
+
+/* faq styles */
+
+
+
+div.d-flex>img {
+    height: 80%;
+}
+
+@media (min-width:320px) {
+
+    img {
+        height: 100%;
+    }
+}
+
+@media (min-width:1024px) {
+
+    .m-n3 {
+        bottom: 2rem;
+    }
+}
+
+/* faq styles */
+
+
+
+/* Our Team */
+
+
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+/* Our Team */
+
+
+
+/* footer resseting  */
+
+
+
+footer {
+    background-color: #000;
+    color: #D9DBE1;
+}
+
+    /* footer resseting  */
